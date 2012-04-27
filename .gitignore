@@ -1,0 +1,8 @@
+_Store
+.classpath
+.project
+.settings
+build.xml
+target/
+bin/
+test-output
