@@ -1,4 +1,168 @@
+body{
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.clear {
+	clear: both;
+	line-height: 0;
+	overflow: hidden;
+}
+.rounded-corner{
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
+/*~~~~~~~~~~~~~		 Home Page Styles 	~~~~~~~~~~~~~~~~~~~*/ 
 .home{
+	
+}
+
+.home .header{
 	text-align: center;
 }
 
+.home .header .bizname{
+	margin-top: 4px;
+	color: red;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.home .header .slogan{
+	color: #bebebe;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*   Home content */
+.home .content{
+	margin: 20px 10px 20px 10px;
+	
+}
+
+.home .description{
+	width: 60%;
+	float:left;
+	margin-right: 5px;
+}
+
+.home .content .desc-title{
+	color: #ffdead;
+}
+
+.home .content .desc-content{
+	font-size: 12px;
+	color: #bebebe;
+}
+
+.home .content .esc-right-img{
+	float: right;
+}
+
+.home .content .login-input-section{
+	background-color: #47A523;
+	margin-top: 40px;
+	padding: 5px 0px 5px 5px;
+	height: 70px;
+	width: 315px;
+	font-size: 11px;
+}
+
+.home .content .login-input-left-section{
+	float:left;
+	width:120px;
+	margin-right: 10px;
+}
+
+.home .content .login-input-right-section{
+	float:left;
+    color:#F6FFCA;
+}
+
+.home .content .login-input-reg_btn{
+	color:#FFD06E;
+	margin-top:15px
+}
+
+.home .content .login-input-login_btn{
+	color:#FFD06E;
+	margin-top:5px;
+	margin-left:150px
+}
+
+.home .content .login-input-section .vspace{
+	margin-bottom: 5px;
+}
+
+/*       Home Guest section 		*/
+.home .content  .guest-section{
+	margin-top: 30px;
+}
+
+.home .content  .guest-form{
+	float:left;
+	width: 64%;
+	background-color: #FFD16E;
+	padding: 5px 5px;
+}
+
+.home .content  .guest-field{
+	margin:5px 5px 5px 20px;
+	float:left;
+}
+
+.home .content  .guest-field-seq-bg{
+	float:left;
+	color: white;
+	background-color: #3A8D19;
+	margin-right:30px;
+	width:30px;
+	height:30px;
+	-moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -khtml-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.home .content  .guest-field-seq{
+	margin-left: 11px;
+	margin-top: 8px;
+}
+
+.home .content  .guest-field-label{
+	float:left;
+	color: #6F5348;
+	width: 160px;
+	margin-top: 7px;
+}
+
+.home .content  .guest-field-value{
+	float:left;
+	margin-top: 3px;
+}
+
+.home .content  .guest-field-radio{
+	margin-right:20px;
+	float:left;
+}
+
+.home .content  .guest-field-cmd{
+	float:left;
+}
+
+.home .content .guest-msg{
+	float:left;
+	color: green;
+	font-size: large;
+	margin-left: 100px;
+	margin-top: 34px;
+	margin-bottom: 20px;
+}
+
+/*       /Home Guest section 		*/
+
+
+/*   \Home content */ 
